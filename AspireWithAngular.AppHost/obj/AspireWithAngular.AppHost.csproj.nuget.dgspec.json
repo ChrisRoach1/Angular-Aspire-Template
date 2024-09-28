@@ -46,6 +46,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Aspire.Dashboard.Sdk.win-x64": {
+              "target": "Package",
+              "version": "[8.2.1, )",
+              "autoReferenced": true
+            },
             "Aspire.Hosting.AppHost": {
               "target": "Package",
               "version": "[8.1.0, )"
@@ -53,6 +58,11 @@
             "Aspire.Hosting.NodeJs": {
               "target": "Package",
               "version": "[8.2.1, )"
+            },
+            "Aspire.Hosting.Orchestration.win-x64": {
+              "target": "Package",
+              "version": "[8.2.1, )",
+              "autoReferenced": true
             }
           },
           "imports": [
