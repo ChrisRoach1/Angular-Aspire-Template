@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\AspireWithAngular.ApiService.props" />
-</Project>
